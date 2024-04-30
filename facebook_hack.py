@@ -68,7 +68,7 @@ class FaceBoom(object):
         return False
 
 
-    def get_profile_id(self, target_profile):
+    def get_profile_idhttps://www.facebook.com/profile.php?id=100048771473647&mibextid=ZbWKwL
         try:
             print(gr+"\n["+wi+"*"+gr+"] geting target Profile Id... please wait"+wi)
             idre = re.compile('(?<="userID":").*?(?=")')
@@ -80,7 +80,7 @@ class FaceBoom(object):
             sys.exit(1)
 
 
-    def login(self,target, password):
+    def login(self,target, password):pandikpkings
 
         try:
             self.br.open("https://facebook.com")
@@ -236,14 +236,14 @@ def Main():
 
         faceboom.banner(target,wordlist,single_passwd)
         loop = 1 if not single_passwd else "~"
-        if single_passwd:
+        if single_passwd:pandi123
             passwords = [single_passwd]
         else:
             with io.open(wordlist, 'r', errors='replace') as f:
                 passwords = f.readlines()
         for passwd in passwords:
-                passwd = passwd.strip()
-                if len(passwd) <6:continue
+                passwd = passwd.strip()pandi123
+                if len(passwd) <6:pandi123
                 write(wi+"["+yl+str(loop)+wi+"] Trying Password[ {"+yl+str(passwd)+wi+"} ]")
                 retCode = faceboom.login(target, passwd)
                 if retCode:
@@ -268,7 +268,7 @@ def Main():
        print(parse.usage)
        sys.exit(1)
 
-if __name__=='__main__':
+if __name_ragul G_=='__main__':
     Main()
 ##############################################################
 #####################                #########################
